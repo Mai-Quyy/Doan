@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop thời trang </title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+     -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     <!-- <script src="../bootstrap/js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+    <div class="container">
+        <div id="wrappers">
+            <div id="header">
+                <a href="../Home/index.html">
+                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/logoshop.png" alt="" id="logo">
+                </a>
+                <div id="menu">
+                    <nav class="container">
+
+                        <ul id="main-menu">
+                            <li id="colorli"><a href="../Home/index.html">Trang chủ</a>
+                            </li>
+                            <li><a href="">Sản phẩm</a>
+                                <ul class="sub-menu">
+                                    <li><a href="../RESTOCK/RESTOCK.html">RESTOCK</a></li>
+                                    <li><a href="../aothun-ImfineT-Shirt/tops.html">ÁO THUN</a></li>
+                                    <li><a href="../aosomi/somi.html">ÁO SƠ MI</a></li>
+                                    <li><a href="../Aoni&aokhoac/aokhoac.html">ÁO NỈ & ÁO KHOÁC JACKET</a></li>
+                                    <li><a href="../Quan/quan.html">QUẦN</a></li>
+                                    <li><a href="../Tui,vi&Balo/tuivibalo.html">TÚI, VÍ & BALO</a></li>
+                                    <li><a href="../Non/non.html">NÓN</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="">Blog</a>
+
+                            </li>
+                            <li><a href="">Liên hệ</a></li>
+
+                        </ul>
+                    </nav>
+                    <div class="item2">
+                        <i id="icon2" class="fa fa-magnifying-glass"></i>
+                        <input id="icon2" type="text" placeholder="Search">
+                    </div>
+                </div>
+                <div id="actions">
+                    <div class="item">
+                        <a href="../Login&Signup/login.html"><img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/people.256x256.png" alt="" height="25px" width="25px "></a>
+                    </div>
+                    <div class="item">
+                        <a href=""><img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/icons8-shopping-cart-100.png" alt="" height="25px"
+                                width="25px "></a>
+                    </div>
+                </div>
+            </div>
+            <div id="banner" class="mtq2">
+                <div class="box-right">
+                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/1.png" alt="" width="140px" height="276px">
+                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/2.png" alt="" width="140px" height="276px">
+                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/4.png" alt="" width="140px" height="276px">
+
+                </div>
+                <div class="box-center">
+                    <a href="../Allitem/allitem.html"><button>Mua ngay</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="wp-products">
+            <div id="wrapper">
+                <div class="headline">
+                    <h3>sản phẩm bán chạy</h3>
+                </div>
+                <ul class="products">
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top"> <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/Show%20product/%C3%81o1/1.png" alt="">
+                                </a>
+                                <a href="../Allitem/allitem.html" class=" buy-now">Mua Ngay</a>
+                            </div>
+                            <div href="" class=" product-info">
+                                <a href="" class="product-cat">Im fine T- Shirt</a>
+                                <a href="" class="product-name">Im fine T- Shirt</a>
+                                <div class="product-price">340.000</div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/Show%20product/%C3%81o1/11.png" alt="">
+                                </a>
+                                <a href="" class="buy-now" onclick="addToCart(ItemId)">Mua Ngay</a>
+                                <!-- <button type="button"> </button> -->
+                            </div>
+                            <div href="" class="product-info">
+                                <a href="" class="product-cat">The Eyes Tee</a>
+                                <a href="" class="product-name">The Eyes Tee</a>
+                                <div class="product-price">360.000</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/Show%20product/%C3%81o1/21.png" alt=""></a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                            </div>
+                            <div href="" class="product-info">
+                                <a href="" class="product-cat">Midnight party T-shirt</a>
+                                <a href="" class="product-name">Midnight party T-shirt</a>
+                                <div class="product-price">360.000</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/31.png" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                            </div>
+
+                            <div href="" class="product-info">
+                                <a href="" class="product-cat">
+                                    Pain Logo - T-shirts</a>
+                                <a href="" class="product-name">
+                                    Pain Logo - T-shirts</a>
+                                <div class="product-price">340.000</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/Show%20product/%C3%81o1/41.png" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                            </div>
+                            <div href="" class="product-info">
+                                <a href="" class="product-cat">
+                                    Lofi T-shirt</a>
+                                <a href="" class="product-name">
+                                    Lofi T-shirt</a>
+                                <div class="product-price">260.000</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/a.png" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                            </div>
+
+                            <div href="" class="product-info">
+                                <a href="" class="product-cat"> Hoodie raglan</a>
+                                <a href="" class="product-name"> Hoodie raglan</a>
+                                <div class="product-price">490.000</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/a2.png" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                            </div>
+
+                            <div href="" class="product-info">
+                                <a href="" class="product-cat">
+                                    Technical Bomber jacket</a>
+                                <a href="" class="product-name">
+                                    Technical Bomber jacket</a>
+                                <div class="product-price">590.000</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/a3.png" alt="">
+                                </a>
+                                <a href="" class="buy-now">Mua Ngay</a>
+                            </div>
+
+                            <div href="" class="product-info">
+                                <a href="" class="product-cat">
+                                    Cardigan BLVCK Heartless | Cream</a>
+                                <a href="" class="product-name">
+                                    Cardigan BLVCK Heartless | Cream</a>
+                                <div class="product-price">450.000</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="list-page">
+                <div class="item">
+                    <a href="">1</a>
+                </div>
+                <div class="item">
+                    <a href="">2</a>
+                </div>
+                <div class="item">
+                    <a href="">3</a>
+                </div>
+                <div class="item">
+                    <a href="">4</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="saleoff" >
+            <div class="box-left" >
+                <a href="../Saleoff/saleoff.html">
+                    <h1>
+                        <span>GIẢM GIÁ LÊN ĐẾN</span>
+                        <span>45%</span>
+                    </h1>
+                </a>
+            </div>
+            <div class="box-right"></div>
+        </div>
+
+        <div id="comment">
+            <h2>NHẬN XÉT CỦA KHÁCH HÀNG</h2>
+            <div id="comment-body">
+                <div class="prev">
+                    <a href="#">
+                        <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/prev.png" alt="">
+                    </a>
+                </div>
+                <ul id="list-comment">
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="assets/avatar_1.png" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Nguyễn Đình Vũ</div>
+
+                        <div class="text">
+                            <p>Navigating feedback situations can be tricky for many individuals, especially if the feedback given is constructive or somehow critical.
+                                 Regardless of the situation, though, it’s important to remain professional and gracious as you receive feedback,
+                                 as giving feedback requires others to be vulnerable, honest and invested in your growth.</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="assets/avatar_1.png" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Trần Ngọc Sơn</div>
+
+                        <div class="text">
+                            <p>Navigating feedback situations can be tricky for many individuals, especially if the feedback given is constructive or somehow critical.
+                                Regardless of the situation, though, it’s important to remain professional and gracious as you receive feedback,
+                                as giving feedback requires others to be vulnerable, honest and invested in your growth.</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="assets/avatar_1.png" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Nguyễn Trần Vi</div>
+
+                        <div class="text">
+                            <p>Navigating feedback situations can be tricky for many individuals, especially if the feedback given is constructive or somehow critical.
+                                Regardless of the situation, though, it’s important to remain professional and gracious as you receive feedback,
+                                as giving feedback requires others to be vulnerable, honest and invested in your growth.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="next">
+                    <a href="#">
+                        <img src="https://raw.githubusercontent.com/Mai-Quyy/Project/master/assets/next.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <p>MTQ Local Brand thành lập từ 2015. Đã đăng kí bản quyền thương hiệu tại Việt
+                    Nam.</p>
+                <div class="logo-footer">
+
+                    <img src="https://file.hstatic.net/200000116305/file/logosalenoti_cba2943805d2464d9b3b32720e29dbaa.png"
+                        alt="Bộ Công Thương" width="200px" height="100px">
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>NỘI DUNG</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Sản phẩm</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Blog</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Liên hệ</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>LIÊN HỆ</h3>
+                <form action="">
+                    <input type="text" placeholder="Địa chỉ email">
+                    <button>Nhận tin</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Script/script.js"></script>
+</body>
+
+</html>
